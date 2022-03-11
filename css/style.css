@@ -88,7 +88,9 @@ header{ align-items: end;}
     text-align: center;
 }
 .d2 a{color: white;}
-#gnb > li:hover .d2{ height: 180px;}
+
+/* #gnb > li:hover .d2{ height: 180px;} */
+#gnb:hover .d2{ height: 180px;}
 .d2 li:hover{ background-color: white;}
 .d2 li:hover a{color: black;}
 #slider{background-color: antiquewhite;}
