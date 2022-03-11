@@ -98,7 +98,8 @@ header{ align-items: end;}
     top: 100%; left: 0; right: 0;
     height: 180px;
     transition: height 0.5s;
-}#gnb:hover:after{ 
+}
+#gnb:hover:after{  
     
     height: 180px;
 }
