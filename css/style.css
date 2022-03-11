@@ -91,6 +91,13 @@ header{ align-items: end;}
 
 /* #gnb > li:hover .d2{ height: 180px;} */
 #gnb:hover .d2{ height: 180px;}
+
+#gnb::after{ content: "";
+    position: absolute;
+    background-color: gray;
+    top: 100%; left: 0; right: 0;
+    height: 180px;
+}
 .d2 li:hover{ background-color: white;}
 .d2 li:hover a{color: black;}
 #slider{background-color: antiquewhite;}
